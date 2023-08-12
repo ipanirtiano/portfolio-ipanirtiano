@@ -1,4 +1,4 @@
-import herroImg from "../assets/img/herro.png";
+import herroImg from "../assets/img/herro1.png";
 const Herro = () => {
   return (
     <div className="transition-all duration-300 ease-in-out flex flex-col items-center w-full md:items-start md:flex-row md:px-16 pt-[100px] pb-[80px] dark:bg-gray-900">
