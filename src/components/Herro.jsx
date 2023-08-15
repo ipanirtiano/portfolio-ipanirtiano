@@ -26,7 +26,7 @@ const Herro = () => {
       </div>
 
       <div className="w-full flex-col justify-center items-center py-4 md:w-[30%]">
-        <div className="w-[200px] md:w-[250px] md:h-[250px] h-[200px] rounded-full bg-gradient-to-b from-cyan-600 to-purple-400 relative overflow-hidden mx-auto mb-4 outline outline-[2px] outline-gray-600 dark:outline-gray-300">
+        <div className="w-[200px] md:w-[250px] md:h-[250px] h-[200px] rounded-full bg-gradient-to-b from-cyan-600 to-purple-400 relative overflow-hidden mx-auto mb-4 border border-gray-400 dark:border-gray-100">
           <img
             src={herroImg}
             alt=""
