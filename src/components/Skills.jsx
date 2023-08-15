@@ -4,7 +4,7 @@ const Skills = () => {
       id="skills"
       className="flex flex-col justify-center w-full py-16 transition-all duration-300 ease-in-out dark:bg-gray-900"
     >
-      <div className="text-center mb-4">
+      <div className="text-center pb-4">
         <h1 className="text-3xl font-semibold text-cyan-600 mb-2 dark:text-white">
           Skills
         </h1>

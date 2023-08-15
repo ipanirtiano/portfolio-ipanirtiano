@@ -1,7 +1,7 @@
 import herroImg from "../assets/img/herro1.png";
 const Herro = () => {
   return (
-    <div className="transition-all duration-300 ease-in-out flex flex-col items-center w-full md:items-start md:flex-row md:px-16 pt-[100px] pb-[80px] dark:bg-gray-900">
+    <div className="transition-all duration-300 ease-in-out flex flex-col items-center justify-center w-full md:items-start md:flex-row md:px-16 py-[100px] dark:bg-gray-900">
       <div className="flex flex-col items-center w-full md:w-[70%] md:items-start">
         <p className="text-xl text-cyan-600 font-semibold dark:text-gray-100">
           Hi, my name is
@@ -26,8 +26,12 @@ const Herro = () => {
       </div>
 
       <div className="w-full flex-col justify-center items-center py-4 md:w-[30%]">
-        <div className="w-[200px] md:w-[250px] md:h-[250px] h-[200px] rounded-full bg-gradient-to-b from-cyan-600 to-purple-400 relative overflow-hidden mx-auto mb-4">
-          <img src={herroImg} alt="" className="absolute bottom-0 w-full" />
+        <div className="w-[200px] md:w-[250px] md:h-[250px] h-[200px] rounded-full bg-gradient-to-b from-cyan-600 to-purple-400 relative overflow-hidden mx-auto mb-4 outline outline-[2px] outline-gray-600 dark:outline-gray-300">
+          <img
+            src={herroImg}
+            alt=""
+            className="absolute bottom-0 w-full drop-shadow-2xl"
+          />
         </div>
 
         <div className="flex gap-3 items-center justify-center bg">

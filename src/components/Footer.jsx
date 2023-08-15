@@ -140,7 +140,7 @@ const Footer = () => {
               <span className="material-symbols-outlined text-xl">
                 chevron_right
               </span>
-              <a href="#" className="text-base">
+              <a href="#" className="text-base hover:text-cyan-600">
                 Home
               </a>
             </div>
@@ -149,7 +149,7 @@ const Footer = () => {
               <span className="material-symbols-outlined text-xl">
                 chevron_right
               </span>
-              <a href="#" className="text-base">
+              <a href="#" className="text-base hover:text-cyan-600">
                 About Me
               </a>
             </div>
@@ -158,7 +158,7 @@ const Footer = () => {
               <span className="material-symbols-outlined text-xl">
                 chevron_right
               </span>
-              <a href="#" className="text-base">
+              <a href="#" className="text-base hover:text-cyan-600">
                 Skills
               </a>
             </div>
@@ -167,7 +167,7 @@ const Footer = () => {
               <span className="material-symbols-outlined text-xl">
                 chevron_right
               </span>
-              <a href="#" className="text-base">
+              <a href="#" className="text-base hover:text-cyan-600">
                 Portfolio
               </a>
             </div>
@@ -176,7 +176,7 @@ const Footer = () => {
               <span className="material-symbols-outlined text-xl">
                 chevron_right
               </span>
-              <a href="#" className="text-base">
+              <a href="#" className="text-base hover:text-cyan-600">
                 Contact
               </a>
             </div>
